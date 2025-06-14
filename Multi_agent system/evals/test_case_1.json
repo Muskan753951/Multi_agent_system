@@ -1,0 +1,7 @@
+{
+  "goal": "Find the next SpaceX launch, check weather at that location, then summarize if it may be delayed.",
+  "expected_steps": ["find_next_launch", "check_weather", "summarize_risk"],
+  "actual_output": "Weather conditions look favorable. No delay expected.",
+  "status": "pass",
+  "notes": "All agents ran in correct order. Data was passed and enriched between steps. The summary was generated based on live weather at launchpad."
+}
